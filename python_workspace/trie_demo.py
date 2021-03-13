@@ -32,7 +32,7 @@ class Trie:
             if not pCrawl.children[index]:
                 pCrawl.children[index]=self.getNode()
             pCrawl=pCrawl.children[index]
-            print(pCrawl)
+            
 
         #mark last node as leaf
         pCrawl.isEndOfWord=True
